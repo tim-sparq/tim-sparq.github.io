@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI News – 20 May 2025</title>
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      font-family: 'Helvetica Neue', sans-serif;
+      background: #f4f4f4;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px 20px;
+      box-sizing: border-box;
+    }
+
+    .page-title {
+      font-size: 20px;
+      color: #333333;
+      letter-spacing: 2px;
+      text-align: center;
+      width: 100%;
+      padding: 20px 10px;
+      margin-bottom: 20px;
+      z-index: 1000;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-rows: auto;
+      gap: 15px;
+      max-width: 960px;
+      width: 100%;
+    }
+
+    .container a {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+
+    .tile {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-sizing: border-box;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      z-index: 1;
+      opacity: 0;
+      transform: translateY(10px);
+      height: 100%;
+    }
+
+    .tile.loaded {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .tile:hover {
+      z-index: 10;
+      transform: scale(1.05);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    }
+
+    .tile h2 {
+      font-size: 18px;
+      margin: 0 0 10px;
+      font-weight: bold;
+    }
+
+    .tile p {
+      font-size: 14px;
+      color: #555;
+      margin: 0;
+    }
+
+    .source-line {
+      display: flex;
+      align-items: center;
+      font-size: 13px;
+      color: #888;
+      margin-bottom: 6px;
+    }
+
+    .source-line img {
+      width: 14px;
+      height: 14px;
+      margin-right: 6px;
+      border-radius: 2px;
+    }
+
+    /* Featured styling */
+    .featured {
+      grid-column: span 2;
+      background: #fffdf5;
+      border: 1px solid #f1e6d4;
+      min-height: 260px;
+    }
+
+    .featured h2 {
+      font-size: 22px;
+    }
+
+    .featured .source-line span {
+      margin-left: auto;
+      color: #e67e22;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .featured {
+        grid-column: span 2;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+
+      .featured {
+        grid-column: span 1;
+      }
+
+      .page-title {
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+
+      body {
+        padding: 15px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-title">2025 · 05 · 20</div>
+  <div class="container" id="grid"></div>
+
+  <script>
+    const articles = [
+      {
+        source: "Bloomberg",
+        favicon: "https://www.bloomberg.com/favicon.ico",
+        title: "Apple to Open AI Models to Developers in Bid to Spur New Apps",
+        summary: "Apple is preparing to allow third-party developers to write software using its artificial intelligence models, aiming to spur the creation of new applications.",
+        link: "https://www.bloomberg.com/news/articles/2025-05-20/apple-to-open-ai-models-to-developers-betting-that-it-will-spur-new-apps"
+      },
+      {
+        source: "Google Blog",
+        favicon: "https://www.google.com/favicon.ico",
+        title: "Google I/O 2025: From research to reality",
+        summary: "At our annual developer conference, we announced how we're making AI even more helpful with Gemini.",
+        link: "https://blog.google/technology/ai/io-2025-keynote/"
+      },
+      {
+        source: "Reuters",
+        favicon: "https://www.reuters.com/favicon.ico",
+        title: "AI power demand is generating hallucinations",
+        summary: "Chatbot-running data centers are expected to guzzle 12% of US electricity by 2030. Yet tech giants and utilities are best served by...",
+        link: "https://www.reuters.com/breakingviews/ai-power-demand-is-generating-hallucinations-2025-05-20/"
+      },
+      {
+        source: "The Register",
+        favicon: "https://www.theregister.com/favicon.ico",
+        title: "Trump's budget bill would kill state-level AI regulations",
+        summary: "The 'One Big Beautiful Bill Act,' Trump's proposed budget reconciliation bill for FY 2025, has spurred 40 state AGs, as well as more than 140...",
+        link: "https://www.theregister.com/2025/05/20/trump_bill_regulation_free_ai/"
+      },
+      {
+        source: "Reuters",
+        favicon: "https://www.reuters.com/favicon.ico",
+        title: "Ray Kurzweil's humanoid robot startup in talks for $100 million investment",
+        summary: "A humanoid robotics startup co-founded by prominent artificial-intelligence futurist Ray Kurzweil said on Tuesday that...",
+        link: "https://www.reuters.com/technology/ray-kurzweils-humanoid-robot-startup-talks-100-million-investment-2025-05-20/"
+      },
+      {
+        source: "Bloomberg",
+        favicon: "https://www.bloomberg.com/favicon.ico",
+        title: "Microsoft-Backed Builder.ai to Enter Insolvency Proceedings",
+        summary: "Builder.ai, the British artificial intelligence startup backed by Microsoft Corp. and the Qatar Investment Authority, is filing for...",
+        link: "https://www.bloomberg.com/news/articles/2025-05-20/microsoft-backed-builder-ai-to-enter-insolvency-proceedings"
+      },
+      {
+        source: "The Guardian",
+        favicon: "https://www.theguardian.com/favicon.ico",
+        title: "AI to play increasing role in UK armed forces, defence secretary says",
+        summary: "Exclusive: John Healey says strategic defence review aims to put military on ‘leading edge of innovation in Nato’.",
+        link: "https://www.theguardian.com/technology/artificialintelligenceai/2025/may/20/all"
+      }
+    ];
+
+    function calculateContentSize(article) {
+      return article.title.length * 0.5 + article.summary.length;
+    }
+
+    function assignGridPositions() {
+      const articlesWithSize = articles.map((article, index) => ({
+        ...article,
+        size: calculateContentSize(article),
+        index
+      }));
+
+      articlesWithSize.sort((a, b) => b.size - a.size);
+
+      return articlesWithSize.map((article, sortedIndex) => ({
+        ...article,
+        featured: sortedIndex === 0,
+        tallContent: sortedIndex === 1 || sortedIndex === 2
+      }));
+    }
+
+    function createTile(article) {
+      const className = `tile ${article.featured ? 'featured' : ''}`;
+      return `
+        <a href="${article.link}" target="_blank">
+          <div class="${className}">
+            <div class="source-line">
+              <img src="${article.favicon}" onerror="this.style.display='none'" alt="${article.source}">
+              ${article.source}
+              ${article.featured ? '<span>★ Featured</span>' : ''}
+            </div>
+            <h2>${article.title}</h2>
+            <p>${article.summary}</p>
+          </div>
+        </a>
+      `;
+    }
+
+    function populateTiles() {
+      const grid = document.getElementById("grid");
+      const layoutConfig = assignGridPositions();
+      grid.innerHTML = layoutConfig.map(createTile).join('');
+    }
+
+    window.addEventListener('load', () => {
+      populateTiles();
+      setTimeout(() => {
+        document.querySelectorAll('.tile').forEach(tile => {
+          tile.classList.add('loaded');
+        });
+      }, 100);
+    });
+  </script>
+</body>
+</html>
