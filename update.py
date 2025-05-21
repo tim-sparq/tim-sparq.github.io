@@ -11,9 +11,9 @@ with open("index.html", "r", encoding="utf-8") as file:
 date = datetime.now().strftime("%Y-%m-%d")
 
 prompt = f"""
-Please search the web for the 7 top AI news articles from today ({date}).
+Please search the web for the top 7 AI news articles from today ({date}).
 
-Only use articles from major news corps.
+Only use articles from major news corps. Don't use sites with paywalls.
 
 Use this content to update the below HTML: article summaries, titles, links and favicons.
 
