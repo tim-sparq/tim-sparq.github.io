@@ -19,6 +19,8 @@ Use this content to update the below HTML: article summaries, titles, links and 
 
 Also update the date string at the top of the feed.
 
+Don't modify the view counts - these are just placeholders for now.
+
 All articles must be real and from today ({date}) and links must be working.
 
 Do not otherwise alter the HTML.

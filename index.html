@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI News – 21 May 2025</title>
+  <!-- Font Awesome for the eye icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     html, body {
       margin: 0;
@@ -92,6 +94,7 @@
       font-size: 13px;
       color: #888;
       margin-bottom: 6px;
+      width: 100%;
     }
 
     .source-line img {
@@ -100,8 +103,45 @@
       margin-right: 6px;
       border-radius: 2px;
     }
+    
+    .view-count {
+      margin-left: auto;
+      color: #e67e22;
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+    }
+    
+    .view-count i {
+      margin-right: 4px;
+    }
+    
+    .view-count-value {
+      position: relative;
+      display: inline-block;
+      min-width: 24px;
+      text-align: right;
+    }
 
-    /* Featured styling */
+    .view-animation {
+      animation: pulse 0.4s ease-in-out;
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+      50% {
+        transform: translateY(-5px);
+        opacity: 0.5;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
     .featured {
       grid-column: span 2;
       background: #fffdf5;
@@ -111,12 +151,6 @@
 
     .featured h2 {
       font-size: 22px;
-    }
-
-    .featured .source-line span {
-      margin-left: auto;
-      color: #e67e22;
-      font-weight: bold;
     }
 
     @media (max-width: 768px) {
@@ -160,81 +194,115 @@
         favicon: "https://apnews.com/favicon.ico",
         title: "Google Unveils 'AI Mode' in Search Engine",
         summary: "Google introduces 'AI Mode' in its search engine, enabling conversational interactions and integrating the Gemini 2.5 model for enhanced user experience.",
-        link: "https://apnews.com/article/5b0cdc59870508dab856227185cb8e23"
+        link: "https://apnews.com/article/5b0cdc59870508dab856227185cb8e23",
+        views: 8475
       },
       {
         source: "Axios",
         favicon: "https://www.axios.com/favicon.ico",
         title: "Google Leaders Predict AGI by 2030",
         summary: "At Google I/O, Sergey Brin and Demis Hassabis forecast the emergence of artificial general intelligence around 2030, emphasizing the need for significant breakthroughs.",
-        link: "https://www.axios.com/2025/05/21/google-sergey-brin-demis-hassabis-agi-2030"
+        link: "https://www.axios.com/2025/05/21/google-sergey-brin-demis-hassabis-agi-2030",
+        views: 10342
       },
       {
         source: "Financial Times",
         favicon: "https://www.ft.com/favicon.ico",
         title: "Nvidia CEO Criticizes US AI Chip Export Restrictions to China",
         summary: "Jensen Huang labels US export controls on AI chips to China as a 'failure,' noting they have accelerated Chinese tech firms' development of competitive alternatives.",
-        link: "https://www.ft.com/content/a3fce85c-8651-4fec-ab6a-c876ec01a547"
+        link: "https://www.ft.com/content/a3fce85c-8651-4fec-ab6a-c876ec01a547",
+        views: 6239
       },
       {
         source: "Reuters",
         favicon: "https://www.reuters.com/favicon.ico",
         title: "Promise Partners with Google on AI, Expands Investor Base",
         summary: "AI studio Promise collaborates with Google to integrate AI technologies and secures new funding from investors including Google's AI Futures Fund.",
-        link: "https://www.reuters.com/business/media-telecom/andreessen-horowitz-backed-studio-promise-partners-with-google-ai-adds-investors-2025-05-20/"
+        link: "https://www.reuters.com/business/media-telecom/andreessen-horowitz-backed-studio-promise-partners-with-google-ai-adds-investors-2025-05-20/",
+        views: 3541
       },
       {
         source: "Axios",
         favicon: "https://www.axios.com/favicon.ico",
         title: "Bezos Earth Fund Awards AI Grants for Climate Solutions",
         summary: "The Bezos Earth Fund announces the first 24 recipients of its 'AI for Climate and Nature Grand Challenge,' each receiving initial grants to tackle environmental issues using AI.",
-        link: "https://www.axios.com/newsletters/axios-generate-9fbc9900-3592-11f0-9189-e7204ff149a9"
+        link: "https://www.axios.com/newsletters/axios-generate-9fbc9900-3592-11f0-9189-e7204ff149a9",
+        views: 925
       },
       {
         source: "Axios",
         favicon: "https://www.axios.com/favicon.ico",
         title: "Philadelphia Inquirer Publishes AI-Generated Fake Book Titles",
         summary: "The Philadelphia Inquirer faces criticism for publishing a summer reading list containing AI-generated fictitious book titles attributed to real authors.",
-        link: "https://www.axios.com/local/philadelphia/2025/05/20/philadelphia-inquirer-summer-reading-list-ai"
+        link: "https://www.axios.com/local/philadelphia/2025/05/20/philadelphia-inquirer-summer-reading-list-ai",
+        views: 1578
       },
       {
         source: "Associated Press",
         favicon: "https://apnews.com/favicon.ico",
         title: "Global Media Groups Urge AI Developers to Combat Misinformation",
         summary: "A coalition of media organizations calls on AI developers to collaborate in combating misinformation and protecting fact-based journalism.",
-        link: "https://apnews.com/article/61fb43f20d945753a8c86881aa631d65"
+        link: "https://apnews.com/article/61fb43f20d945753a8c86881aa631d65",
+        views: 784
       }
     ];
 
-    function calculateContentSize(article) {
-      return article.title.length * 0.5 + article.summary.length;
+    // Store the current view counts
+    const currentViews = articles.map(article => article.views);
+    
+    function getRandomInt(min, max) {
+      min = Math.ceil(min);
+      max = Math.floor(max);
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    function formatViewCount(count) {
+      if (count >= 1000) {
+        return (count / 1000).toFixed(1).replace(/\.0$/, '') + 'k';
+      }
+      return count.toString();
     }
 
     function assignGridPositions() {
-      const articlesWithSize = articles.map((article, index) => ({
+      // Find the article with maximum views
+      let maxViewsIndex = 0;
+      let maxViews = currentViews[0];
+      
+      for (let i = 1; i < currentViews.length; i++) {
+        if (currentViews[i] > maxViews) {
+          maxViews = currentViews[i];
+          maxViewsIndex = i;
+        }
+      }
+      
+      // Add index to each article
+      const articlesWithIndex = articles.map((article, index) => ({
         ...article,
-        size: calculateContentSize(article),
-        index
+        index,
+        views: currentViews[index]
       }));
-
-      articlesWithSize.sort((a, b) => b.size - a.size);
-
-      return articlesWithSize.map((article, sortedIndex) => ({
+      
+      return articlesWithIndex.map((article, index) => ({
         ...article,
-        featured: sortedIndex === 0,
-        tallContent: sortedIndex === 1 || sortedIndex === 2
+        featured: index === maxViewsIndex,  // Feature only the article with max views
+        tallContent: (index !== maxViewsIndex) && (index < 2 || index === 2)  // Make first 2 non-featured articles tall
       }));
     }
 
     function createTile(article) {
       const className = `tile ${article.featured ? 'featured' : ''}`;
+      const formattedViews = formatViewCount(article.views);
+      
       return `
         <a href="${article.link}" target="_blank">
-          <div class="${className}">
+          <div class="${className}" data-article-index="${article.index}">
             <div class="source-line">
               <img src="${article.favicon}" onerror="this.style.display='none'" alt="${article.source}">
               ${article.source}
-              ${article.featured ? '<span>★ Featured</span>' : ''}
+              <div class="view-count">
+                <i class="fa-regular fa-eye"></i> 
+                <span class="view-count-value" data-article-index="${article.index}">${formattedViews}</span>
+              </div>
             </div>
             <h2>${article.title}</h2>
             <p>${article.summary}</p>
@@ -249,14 +317,90 @@
       grid.innerHTML = layoutConfig.map(createTile).join('');
     }
 
+    // Function to animate the view count change with a simpler animation
+    function animateViewCount(element, newValue) {
+      // Add the animation class
+      element.classList.add('view-animation');
+      
+      // Update the text after a slight delay
+      setTimeout(() => {
+        element.textContent = newValue;
+        
+        // Remove the animation class after it completes
+        setTimeout(() => {
+          element.classList.remove('view-animation');
+        }, 400);
+      }, 200);
+    }
+
+    // Function to update random view counts
+    function updateRandomViewCounts() {
+      // Determine how many articles to update (1-3)
+      const updateCount = getRandomInt(1, 3);
+      
+      // Randomly select articles to update
+      const articlesToUpdate = new Set();
+      while (articlesToUpdate.size < updateCount) {
+        articlesToUpdate.add(getRandomInt(0, articles.length - 1));
+      }
+      
+      // Update each selected article
+      articlesToUpdate.forEach(index => {
+        const incrementAmount = getRandomInt(1, 8);
+        const oldValue = currentViews[index];
+        const oldFormattedValue = formatViewCount(oldValue);
+        
+        // Update the actual view count
+        currentViews[index] += incrementAmount;
+        const newFormattedValue = formatViewCount(currentViews[index]);
+        
+        // Find the element and update it with animation ONLY if the formatted value changed
+        const viewCountElement = document.querySelector(`.view-count-value[data-article-index="${index}"]`);
+        if (viewCountElement && oldFormattedValue !== newFormattedValue) {
+          animateViewCount(viewCountElement, newFormattedValue);
+        } else if (viewCountElement) {
+          // If the displayed value hasn't changed, just update the text without animation
+          viewCountElement.textContent = newFormattedValue;
+        }
+      });
+      
+      // Check if featured article needs to change
+      const currentMax = Math.max(...currentViews);
+      const currentMaxIndex = currentViews.indexOf(currentMax);
+      
+      const tileElements = document.querySelectorAll('.tile');
+      let oldMaxIndex = -1;
+      
+      tileElements.forEach(tile => {
+        const index = parseInt(tile.getAttribute('data-article-index'));
+        if (tile.classList.contains('featured')) {
+          oldMaxIndex = index;
+        }
+      });
+      
+      if (currentMaxIndex !== oldMaxIndex && oldMaxIndex !== -1) {
+        // Featured article changed, update the layout
+        setTimeout(() => {
+          const oldFeatured = document.querySelector(`.tile[data-article-index="${oldMaxIndex}"]`);
+          const newFeatured = document.querySelector(`.tile[data-article-index="${currentMaxIndex}"]`);
+          
+          if (oldFeatured) oldFeatured.classList.remove('featured');
+          if (newFeatured) newFeatured.classList.add('featured');
+        }, 600);
+      }
+    }
+
     window.addEventListener('load', () => {
       populateTiles();
       setTimeout(() => {
         document.querySelectorAll('.tile').forEach(tile => {
           tile.classList.add('loaded');
         });
+        
+        // Start the view count update loop
+        setInterval(updateRandomViewCounts, 3000); // Update every few seconds
       }, 100);
     });
   </script>
 </body>
-</html> 
+</html>
