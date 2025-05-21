@@ -13,6 +13,8 @@ date = datetime.now().strftime("%Y-%m-%d")
 prompt = f"""
 Please search the web for the 7 top AI news articles from today ({date}).
 
+Only use articles from major news corps.
+
 Use this content to update the below HTML: article summaries, titles, links and favicons.
 
 Also update the date string at the top of the feed.
