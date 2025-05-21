@@ -29,11 +29,9 @@ jobs:
         run: python update.py
 
       - name: Commit and push changes
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          git config user.name "gh-actions"
-          git config user.email "gh-actions@github.com"
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
           git add index.html
           git commit -m "daily update"
-          git push https://x-access-token:${GH_TOKEN}@github.com/tim-sparq/tim-sparq.github.io main
+          git push
