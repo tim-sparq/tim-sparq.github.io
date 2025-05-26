@@ -13,7 +13,9 @@ date = datetime.now().strftime("%Y-%m-%d")
 prompt = f"""
 Please search the web for the top 7 AI news articles from today ({date}).
 
-Only use articles from major news corps. Don't use sites with paywalls.
+AI should be the main topic of the article - don't include articles that are only tangentially related to AI.
+
+Only use articles from major news corps.
 
 Use this content to update the below JSON: article summaries, titles, links and favicons.
 

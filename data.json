@@ -25,14 +25,6 @@
       "views": 6239
     },
     {
-      "source": "Reuters",
-      "favicon": "https://www.reuters.com/favicon.ico",
-      "title": "The Unprecedented Scale of India's Maha Kumbh Festival",
-      "summary": "The 2025 Maha Kumbh Mela, held in Prayagraj, India, reportedly attracted a staggering 663 million visits to the ritual bathing ghats, marking it as the largest human congregation for any religious, cultural, or social event.",
-      "link": "https://www.reuters.com/world/asia-pacific/unprecedented-scale-indias-maha-kumbh-festival-2025-05-26/",
-      "views": 3541
-    },
-    {
       "source": "AP News",
       "favicon": "https://apnews.com/favicon.ico",
       "title": "Tech Companies Sign Accord to Combat AI-Generated Election Trickery",
@@ -51,9 +43,17 @@
     {
       "source": "Reuters",
       "favicon": "https://www.reuters.com/favicon.ico",
-      "title": "China Wants to Work with Indonesia to Tackle Risks, Challenges, Premier Li Says",
-      "summary": "During a visit to Jakarta, Chinese Premier Li Qiang expressed China's commitment to strengthening cooperation with Indonesia to enhance political trust and strategic coordination, including collaboration in finance, new energy, digital economy, artificial intelligence, aerospace, and maritime sectors.",
-      "link": "https://www.reuters.com/world/china/china-wants-work-with-indonesia-tackle-risks-challenges-premier-li-says-2025-05-25/",
+      "title": "Nvidia to Produce AI Servers Worth Up to $500 Billion in US Over Four Years",
+      "summary": "Nvidia announced plans to produce AI servers valued up to $500 billion in the U.S. over the next four years, in partnership with companies like TSMC. This initiative supports the Trump administration’s push for domestic manufacturing amid escalating tariffs on imports.",
+      "link": "https://www.reuters.com/technology/artificial-intelligence/nvidia-says-working-with-partners-make-ai-supercomputers-us-2025-04-14/",
+      "views": 925
+    },
+    {
+      "source": "Reuters",
+      "favicon": "https://www.reuters.com/favicon.ico",
+      "title": "Autonomous Agents and Profitability to Dominate AI Agenda in 2025, Executives Forecast",
+      "summary": "Business executives and researchers predict that autonomous agents and profitability will dominate the AI agenda in 2025. These agents, capable of performing tasks independently, are expected to be enabled by recent advancements in step-by-step reasoning approaches.",
+      "link": "https://www.reuters.com/technology/artificial-intelligence/autonomous-agents-profitability-dominate-ai-agenda-2025-executives-forecast-2024-12-12/",
       "views": 925
     }
   ]
