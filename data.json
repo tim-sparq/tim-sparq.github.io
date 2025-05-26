@@ -1,0 +1,60 @@
+{
+  "articles": [
+    {
+      "source": "Reuters",
+      "favicon": "https://www.reuters.com/favicon.ico",
+      "title": "Capgemini and SAP Partner with Mistral to Deploy AI for Sensitive Sectors",
+      "summary": "French IT firm Capgemini announced a partnership with German software giant SAP to deploy customized AI solutions developed by Mistral for industries with strict data security and compliance requirements, including financial services, public sector, aerospace and defense, and energy and utilities.",
+      "link": "https://www.reuters.com/business/capgemini-sap-partner-with-mistral-deploy-ai-sensitive-sectors-2025-05-26/",
+      "views": 8475
+    },
+    {
+      "source": "Reuters",
+      "favicon": "https://www.reuters.com/favicon.ico",
+      "title": "OpenAI to Open Office in Seoul Amid Growing Demand for ChatGPT",
+      "summary": "OpenAI announced the opening of its first office in Seoul, South Korea, in response to the country's rising demand for its ChatGPT service. South Korea ranks just behind the United States in the number of paying ChatGPT subscribers.",
+      "link": "https://www.reuters.com/world/asia-pacific/openai-open-office-seoul-amid-growing-demand-chatgpt-2025-05-26/",
+      "views": 10342
+    },
+    {
+      "source": "Axios",
+      "favicon": "https://www.axios.com/favicon.ico",
+      "title": "America's Manufacturing Future Still Needs Foreign Robots",
+      "summary": "The Trump administration is advocating for a revitalization of U.S. manufacturing through automation and an enhanced workforce. However, the success of this initiative currently relies heavily on foreign-made industrial robots, as the majority used in American factories are imported.",
+      "link": "https://www.axios.com/2025/05/25/manufacturing-robots-trump-china",
+      "views": 6239
+    },
+    {
+      "source": "Reuters",
+      "favicon": "https://www.reuters.com/favicon.ico",
+      "title": "The Unprecedented Scale of India's Maha Kumbh Festival",
+      "summary": "The 2025 Maha Kumbh Mela, held in Prayagraj, India, reportedly attracted a staggering 663 million visits to the ritual bathing ghats, marking it as the largest human congregation for any religious, cultural, or social event.",
+      "link": "https://www.reuters.com/world/asia-pacific/unprecedented-scale-indias-maha-kumbh-festival-2025-05-26/",
+      "views": 3541
+    },
+    {
+      "source": "AP News",
+      "favicon": "https://apnews.com/favicon.ico",
+      "title": "Tech Companies Sign Accord to Combat AI-Generated Election Trickery",
+      "summary": "At least six major technology companies, including Adobe, Google, Meta, Microsoft, OpenAI, and TikTok, have signed an agreement to guide efforts in preventing the use of artificial intelligence tools to disrupt democratic elections. The accord focuses on detecting and labeling deceptive AI-generated content.",
+      "link": "https://apnews.com/article/aigenerated-election-deepfakes-adobe-google-meta-microsoft-openai-tiktok-cf7d81b7a03d4e21df0eb2820818c6c9",
+      "views": 784
+    },
+    {
+      "source": "AP News",
+      "favicon": "https://apnews.com/favicon.ico",
+      "title": "Corporate, Global Leaders Peer into a Future Expected to Be Reshaped by AI, for Better or Worse",
+      "summary": "At the APEC CEO Summit, leaders like Microsoft's Satya Nadella and Google's Sundar Pichai discussed the transformative potential of AI, comparing it to past technological revolutions, while others expressed concerns about its potential misuse and impact on employment.",
+      "link": "https://apnews.com/article/artificial-intelligence-apec-ceo-summit-6805089ac5198a82269c7dafb8e66398",
+      "views": 784
+    },
+    {
+      "source": "Reuters",
+      "favicon": "https://www.reuters.com/favicon.ico",
+      "title": "China Wants to Work with Indonesia to Tackle Risks, Challenges, Premier Li Says",
+      "summary": "During a visit to Jakarta, Chinese Premier Li Qiang expressed China's commitment to strengthening cooperation with Indonesia to enhance political trust and strategic coordination, including collaboration in finance, new energy, digital economy, artificial intelligence, aerospace, and maritime sectors.",
+      "link": "https://www.reuters.com/world/china/china-wants-work-with-indonesia-tackle-risks-challenges-premier-li-says-2025-05-25/",
+      "views": 925
+    }
+  ]
+} 

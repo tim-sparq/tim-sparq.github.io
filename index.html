@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI News – 21 May 2025</title>
+  <title>AI News – 22 May 2025</title>
   <!-- Font Awesome for the eye icon -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
@@ -18,7 +18,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 30px 20px;
+      padding: 15px 20px 30px 20px; /* Reduced top padding from 30px to 15px */
       box-sizing: border-box;
     }
 
@@ -28,9 +28,18 @@
       letter-spacing: 2px;
       text-align: center;
       width: 100%;
-      padding: 20px 10px;
-      margin-bottom: 20px;
+      padding: 10px 10px; /* Consistent padding all around */
+      margin: 0 0 10px 0; /* Removed any default top margin, kept bottom margin */
       z-index: 1000;
+    }
+
+    .loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      font-size: 16px;
+      color: #666;
     }
 
     .container {
@@ -153,6 +162,12 @@
       font-size: 22px;
     }
 
+    .error {
+      color: #e74c3c;
+      text-align: center;
+      padding: 20px;
+    }
+
     @media (max-width: 768px) {
       .container {
         grid-template-columns: repeat(2, 1fr);
@@ -173,82 +188,73 @@
       }
 
       .page-title {
-        padding: 10px;
-        margin-bottom: 10px;
+        padding: 5px; /* Equal padding all around */
+        margin: 0 0 5px 0; /* No top margin, 5px bottom margin */
       }
 
       body {
-        padding: 15px 10px;
+        padding: 10px 10px 15px 10px; /* Reduced and balanced padding */
       }
     }
   </style>
 </head>
 <body>
-  <div class="page-title">2025 · 05 · 21</div>
-  <div class="container" id="grid"></div>
+  <div class="page-title" id="page-title"></div>
+  <div id="loading" class="loading">Loading articles...</div>
+  <div class="container" id="grid" style="display: none;"></div>
 
   <script>
-    const articles = [
-      {
-        source: "Associated Press",
-        favicon: "https://apnews.com/favicon.ico",
-        title: "Google Unveils 'AI Mode' in Search Engine",
-        summary: "Google introduces 'AI Mode' in its search engine, enabling conversational interactions and integrating the Gemini 2.5 model for enhanced user experience.",
-        link: "https://apnews.com/article/5b0cdc59870508dab856227185cb8e23",
-        views: 8475
-      },
-      {
-        source: "Axios",
-        favicon: "https://www.axios.com/favicon.ico",
-        title: "Google Leaders Predict AGI by 2030",
-        summary: "At Google I/O, Sergey Brin and Demis Hassabis forecast the emergence of artificial general intelligence around 2030, emphasizing the need for significant breakthroughs.",
-        link: "https://www.axios.com/2025/05/21/google-sergey-brin-demis-hassabis-agi-2030",
-        views: 10342
-      },
-      {
-        source: "Financial Times",
-        favicon: "https://www.ft.com/favicon.ico",
-        title: "Nvidia CEO Criticizes US AI Chip Export Restrictions to China",
-        summary: "Jensen Huang labels US export controls on AI chips to China as a 'failure,' noting they have accelerated Chinese tech firms' development of competitive alternatives.",
-        link: "https://www.ft.com/content/a3fce85c-8651-4fec-ab6a-c876ec01a547",
-        views: 6239
-      },
-      {
-        source: "Reuters",
-        favicon: "https://www.reuters.com/favicon.ico",
-        title: "Promise Partners with Google on AI, Expands Investor Base",
-        summary: "AI studio Promise collaborates with Google to integrate AI technologies and secures new funding from investors including Google's AI Futures Fund.",
-        link: "https://www.reuters.com/business/media-telecom/andreessen-horowitz-backed-studio-promise-partners-with-google-ai-adds-investors-2025-05-20/",
-        views: 3541
-      },
-      {
-        source: "Axios",
-        favicon: "https://www.axios.com/favicon.ico",
-        title: "Bezos Earth Fund Awards AI Grants for Climate Solutions",
-        summary: "The Bezos Earth Fund announces the first 24 recipients of its 'AI for Climate and Nature Grand Challenge,' each receiving initial grants to tackle environmental issues using AI.",
-        link: "https://www.axios.com/newsletters/axios-generate-9fbc9900-3592-11f0-9189-e7204ff149a9",
-        views: 925
-      },
-      {
-        source: "Axios",
-        favicon: "https://www.axios.com/favicon.ico",
-        title: "Philadelphia Inquirer Publishes AI-Generated Fake Book Titles",
-        summary: "The Philadelphia Inquirer faces criticism for publishing a summer reading list containing AI-generated fictitious book titles attributed to real authors.",
-        link: "https://www.axios.com/local/philadelphia/2025/05/20/philadelphia-inquirer-summer-reading-list-ai",
-        views: 1578
-      },
-      {
-        source: "Associated Press",
-        favicon: "https://apnews.com/favicon.ico",
-        title: "Global Media Groups Urge AI Developers to Combat Misinformation",
-        summary: "A coalition of media organizations calls on AI developers to collaborate in combating misinformation and protecting fact-based journalism.",
-        link: "https://apnews.com/article/61fb43f20d945753a8c86881aa631d65",
-        views: 784
-      }
-    ];
+    // Global variables
+    let articles = [];
+    let currentViews = [];
 
-    // Store the current view counts
-    const currentViews = articles.map(article => article.views);
+    // Set the current date in the header
+    function setCurrentDate() {
+      const today = new Date();
+      const year = today.getFullYear();
+      const month = String(today.getMonth() + 1).padStart(2, '0');
+      const day = String(today.getDate()).padStart(2, '0');
+      
+      document.getElementById('page-title').textContent = `${year} · ${month} · ${day}`;
+    }
+
+    // Load articles from JSON file
+    async function loadArticles() {
+      try {
+        const response = await fetch('data.json');
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        articles = data.articles;
+        currentViews = articles.map(article => article.views);
+        
+        // Hide loading and show grid
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('grid').style.display = 'grid';
+        
+        // Populate the tiles
+        populateTiles();
+        
+        // Animate tiles in
+        setTimeout(() => {
+          document.querySelectorAll('.tile').forEach(tile => {
+            tile.classList.add('loaded');
+          });
+          
+          // Start the view count update loop
+          setInterval(updateRandomViewCounts, 3000);
+        }, 100);
+        
+      } catch (error) {
+        console.error('Error loading articles:', error);
+        document.getElementById('loading').innerHTML = `
+          <div class="error">
+            Error: ${error.message}
+          </div>
+        `;
+      }
+    }
     
     function getRandomInt(min, max) {
       min = Math.ceil(min);
@@ -390,16 +396,12 @@
       }
     }
 
+    // Initialize the application
     window.addEventListener('load', () => {
-      populateTiles();
-      setTimeout(() => {
-        document.querySelectorAll('.tile').forEach(tile => {
-          tile.classList.add('loaded');
-        });
-        
-        // Start the view count update loop
-        setInterval(updateRandomViewCounts, 3000); // Update every few seconds
-      }, 100);
+      // Set the current date first
+      setCurrentDate();
+      // Then load articles
+      loadArticles();
     });
   </script>
 </body>
