@@ -1,60 +1,55 @@
 {
   "articles": [
     {
-      "source": "Reuters",
-      "favicon": "https://www.reuters.com/favicon.ico",
-      "title": "Capgemini and SAP Partner with Mistral to Deploy AI for Sensitive Sectors",
-      "summary": "French IT firm Capgemini announced a partnership with German software giant SAP to deploy customized AI solutions developed by Mistral for industries with strict data security and compliance requirements, including financial services, public sector, aerospace and defense, and energy and utilities.",
-      "link": "https://www.reuters.com/business/capgemini-sap-partner-with-mistral-deploy-ai-sensitive-sectors-2025-05-26/",
+      "source": "Financial Times",
+      "favicon": "https://www.ft.com/favicon.ico",
+      "title": "Ukraine's 'drone war' hastens development of autonomous weapons",
+      "summary": "The ongoing conflict in Ukraine has rapidly accelerated the development and deployment of autonomous weapons, particularly AI-enabled drones. In 2024, Ukraine acquired nearly 2 million drones, including 10,000 equipped with artificial intelligence. These drones vary in complexity from modified consumer models to advanced systems produced by Western companies like Anduril, Shield AI, and Helsing. AI technologies enable these drones to navigate, identify targets, and operate even when traditional communication links are disrupted by electronic warfare. Despite their growing capabilities, no drones are fully autonomous yet; human oversight remains critical to approve actions due to reliability and ethical concerns. The transition toward semi-autonomous systems highlights significant technical and regulatory challenges. AI functionality remains resource-intensive and error-prone, and there is a lack of accessible battlefield data to refine the technology. Experts emphasize the pressing need for regulation to address the ethical implications of fully autonomous weapons, but the pace of technological advancement may have outstripped these efforts. Nevertheless, AI is expected to play a transformative role in future warfare, likened to past military revolutions such as gunpowder or tanks.",
+      "link": "https://www.ft.com/content/165272fb-832f-4299-a0d2-1be8efcf5758",
       "views": 8475
-    },
-    {
-      "source": "Reuters",
-      "favicon": "https://www.reuters.com/favicon.ico",
-      "title": "OpenAI to Open Office in Seoul Amid Growing Demand for ChatGPT",
-      "summary": "OpenAI announced the opening of its first office in Seoul, South Korea, in response to the country's rising demand for its ChatGPT service. South Korea ranks just behind the United States in the number of paying ChatGPT subscribers.",
-      "link": "https://www.reuters.com/world/asia-pacific/openai-open-office-seoul-amid-growing-demand-chatgpt-2025-05-26/",
-      "views": 10342
     },
     {
       "source": "Axios",
       "favicon": "https://www.axios.com/favicon.ico",
-      "title": "America's Manufacturing Future Still Needs Foreign Robots",
-      "summary": "The Trump administration is advocating for a revitalization of U.S. manufacturing through automation and an enhanced workforce. However, the success of this initiative currently relies heavily on foreign-made industrial robots, as the majority used in American factories are imported.",
-      "link": "https://www.axios.com/2025/05/25/manufacturing-robots-trump-china",
+      "title": "AI cheating surge",
+      "summary": "A surge in generative AI use for cheating is rampant in U.S. high schools and colleges, causing concern among educators and administrators. A striking 90% of college students reported using AI like ChatGPT on assignments shortly after its launch, and Pew data shows that usage among teens has doubled since 2023. Academic leaders express worries over declining attention spans and rising cheating, with many institutions unprepared for AI integration. Detection tools are inconsistent, and even teachers have misused AI in class prep. Nonetheless, some educators see value in teaching AI competencies—American University’s business school is launching an AI institute for this purpose.",
+      "link": "https://www.axios.com/newsletters/axios-am-2c5374af-c3b5-4be7-bc1c-5f3c8f049ad1",
+      "views": 10342
+    },
+    {
+      "source": "AP News",
+      "favicon": "https://apnews.com/favicon.ico",
+      "title": "Google's unleashes 'AI Mode' in the next phase of its journey to change search",
+      "summary": "Google has unveiled a new “AI Mode” in its search engine during its annual developers conference, further advancing its AI-driven transformation. This feature, now available across the U.S., allows users to interact with Google in a conversational way to get expert-level answers. Launched just months after initial testing, AI Mode integrates Google’s Gemini 2.5 model. The tech giant is also exploring additional AI capabilities such as automated ticket purchases, live video search functions, and personalized AI assistance using Gmail and other Google apps. Additionally, Google previewed Android XR smart glasses powered by AI, marking a return to the smart glasses market in partnerships with Gentle Monster and Warby Parker. Despite predictions that AI would increase web traffic, clickthrough rates have fallen by nearly 30%, as users find satisfactory answers in AI overviews alone. Nevertheless, Google still dominates with 136 billion monthly visits compared to ChatGPT's 4 billion. The company argues that AI-driven competition mitigates antitrust concerns. Google is also offering an “Ultra” AI subscription at $250/month with 30TB storage, significantly more than its current “Pro” package. These developments underscore Google’s all-in approach to AI amidst legal, competitive, and technological shifts in the information access landscape.",
+      "link": "https://apnews.com/article/5b0cdc59870508dab856227185cb8e23",
       "views": 6239
     },
     {
-      "source": "AP News",
-      "favicon": "https://apnews.com/favicon.ico",
-      "title": "Tech Companies Sign Accord to Combat AI-Generated Election Trickery",
-      "summary": "At least six major technology companies, including Adobe, Google, Meta, Microsoft, OpenAI, and TikTok, have signed an agreement to guide efforts in preventing the use of artificial intelligence tools to disrupt democratic elections. The accord focuses on detecting and labeling deceptive AI-generated content.",
-      "link": "https://apnews.com/article/aigenerated-election-deepfakes-adobe-google-meta-microsoft-openai-tiktok-cf7d81b7a03d4e21df0eb2820818c6c9",
+      "source": "TechRadar",
+      "favicon": "https://www.techradar.com/favicon.ico",
+      "title": "Google I/O 2025 as it happened: AI Search, Veo, Flow, Gemini, Android XR, and all the big announcements",
+      "summary": "Google I/O 2025 unveiled a vast array of technological innovations and AI advancements. Key highlights included the debut of Android XR Glasses in collaboration with Samsung, live-demoed by NBA star Giannis Antetokounmpo, showcasing real-time translation and AI interaction. Project Astra was introduced as a universal AI assistant, arriving on Android and iOS, capable of real-time video analysis and multitasking. A major leap in search technology was demonstrated with AI Mode and Search Live, leveraging multimodal inputs like voice, text, and images for more intuitive queries. Google Gemini's suite saw major upgrades including Gemini 2.5 Pro and Flash versions, enhancing live coding, deep research, and context-aware functions. Gemini Live now offers camera and screen-sharing capabilities, and integrates with Chrome for real-time webpage analysis. New creative tools—Imagen 4, Veo 3, and the comprehensive Flow video suite—offer groundbreaking text-to-video generation with audio. Conference attendees were also introduced to Google Beam, a 3D video conferencing tool, and NotebookLM's podcast-generating capabilities now available on mobile. Google also announced new subscription tiers for AI services, including AI Ultra at $249.99/month. Lastly, Wear OS 6 improvements and AI-driven shopping experiences further showcased Google's multifaceted AI vision.",
+      "link": "https://www.techradar.com/news/live/google-i-o-2025-live-project-astra-gemini-and-more",
       "views": 784
     },
     {
-      "source": "AP News",
-      "favicon": "https://apnews.com/favicon.ico",
-      "title": "Corporate, Global Leaders Peer into a Future Expected to Be Reshaped by AI, for Better or Worse",
-      "summary": "At the APEC CEO Summit, leaders like Microsoft's Satya Nadella and Google's Sundar Pichai discussed the transformative potential of AI, comparing it to past technological revolutions, while others expressed concerns about its potential misuse and impact on employment.",
-      "link": "https://apnews.com/article/artificial-intelligence-apec-ceo-summit-6805089ac5198a82269c7dafb8e66398",
-      "views": 784
-    },
-    {
-      "source": "Reuters",
-      "favicon": "https://www.reuters.com/favicon.ico",
-      "title": "Nvidia to Produce AI Servers Worth Up to $500 Billion in US Over Four Years",
-      "summary": "Nvidia announced plans to produce AI servers valued up to $500 billion in the U.S. over the next four years, in partnership with companies like TSMC. This initiative supports the Trump administration’s push for domestic manufacturing amid escalating tariffs on imports.",
-      "link": "https://www.reuters.com/technology/artificial-intelligence/nvidia-says-working-with-partners-make-ai-supercomputers-us-2025-04-14/",
+      "source": "Fox News",
+      "favicon": "https://www.foxnews.com/favicon.ico",
+      "title": "Future of AI: New tech will create ‘digital humans,’ could use more energy than all working people by 2025",
+      "summary": "Comiskey said he anticipates a greater focus from companies on hiring people who can communicate with AI effectively, but also employees who can communicate the benefits and challenges of AI well to those without a technical background. A recent Stanford University AI index report found 2% of all total job postings are for AI and machine learning. Comiskey said companies expect to hire a large swathe of other people for AI integration, including those experienced in natural language processing, robotics and AI-powered search mechanisms. To eliminate biases and minimize risk in existing models, Comiskey said companies will need to build a team that is reflective of the overall racial and ethnic makeup of the U.S. Only 27% of AI teams in the country incorporate women and only 25% have racial or ethnic minorities on the team. Companies are also likely to expand their focus on cybersecurity. While ChatGPT and other AI chatbots can automate and help facilitate a more sophisticated scale, companies can benefit from implementing AI into their existing cybersecurity strategies, Comiskey said. According to an August 2022 IBM Cost of a Data Breach Report, companies with fully deployed security AI and automation systems save $3.05 million per data breach on average compared to those without. Comiskey also anticipates the development of more in-house large language models tailored to the individual goals of the company, as well as the creation of new enterprises offering their own AI models. AI also has the potential to produce higher quality 'digital humans,' a natural evolution of using chatbots to create full avatars of real people. For example, a South Korea-based company Deepbrain AI helped propel the country's new President, Yoon Suk-yeol, to victory. In early 2022, Suk-yeol used videos that featured an AI-generated video of himself to engage voters, making clear that citizens were watching a computer-generated image (CGI).",
+      "link": "https://www.foxnews.com/media/future-ai-new-tech-create-digital-humans-use-more-energy-all-working-people-2025",
       "views": 925
     },
     {
-      "source": "Reuters",
-      "favicon": "https://www.reuters.com/favicon.ico",
-      "title": "Autonomous Agents and Profitability to Dominate AI Agenda in 2025, Executives Forecast",
-      "summary": "Business executives and researchers predict that autonomous agents and profitability will dominate the AI agenda in 2025. These agents, capable of performing tasks independently, are expected to be enabled by recent advancements in step-by-step reasoning approaches.",
-      "link": "https://www.reuters.com/technology/artificial-intelligence/autonomous-agents-profitability-dominate-ai-agenda-2025-executives-forecast-2024-12-12/",
+      "source": "Wikipedia",
+      "favicon": "https://en.wikipedia.org/favicon.ico",
+      "title": "2025 in artificial intelligence",
+      "summary": "February 3 – OpenAI releases ChatGPT Deep Research, an artificial intelligence system integrated into ChatGPT, which generates cited reports on a user-specified topic by autonomously browsing the web for 5 to 30 minutes. February 6 – Mistral AI releases Le Chat, an AI assistant able to answer up to 1,000 words per second. February 10 – AI Action Summit takes place in Paris, France, for two days. It is announced that France will receive 109 billion euros in AI private investments over the coming years. Anthropic launches the Anthropic Economic Index, an initiative aimed at 'understanding AI's effects on labor markets and the economy over time'. Elon Musk and a group of investors led by him offer to buy OpenAI for $97.4 billion. February 27 – OpenAI announces a research preview of GPT-4.5, its largest and most advanced AI model to date. April 16 – OpenAI announces the launch of two new AI models, o3 and o4-mini. May 14 – Google DeepMind announces AlphaEvolve, a Gemini-powered coding agent for designing advanced algorithms. May 20 – Google launches A.I. Mode, which will be a feature on their search engine, and uses the Gemini model. Google DeepMind announces Veo 3, a new state-of-the-art video generation model. The company also boosts the performance of Gemini 2.5 Pro, its flagship AI model. May 22 – Anthropic releases Claude 4, with two models: Claude Opus 4 and Claude Sonnet 4. According to Anthropic, Claude 4 can function on its own for hours.",
+      "link": "https://en.wikipedia.org/wiki/2025_in_artificial_intelligence",
       "views": 925
-    }
-  ]
-} 
+    },
+    {
+      "source": "Wikipedia",
+      "favicon": "https://en.wikipedia.org/favicon.ico",
+      "title": "OpenAI",
+      "summary": "In April 2025, OpenAI raised $40 billion at a $300 billion post-money valuation, marking the largest private technology deal on record. The financing round was led by SoftBank, with other participants including Microsoft, Coatue, Altimeter, and Thrive. On April 9, 2025, OpenAI countersued Musk in federal court, alleging that he had engaged in 'bad-faith tactics' to slow the company’s progress and seize its innovations for his personal benefit. OpenAI also argued that Musk had previously supported the creation of a for-profit structure and had expressed interest in controlling OpenAI himself. The countersuit seeks damages and legal measures to prevent further alleged interference. In May 202 
