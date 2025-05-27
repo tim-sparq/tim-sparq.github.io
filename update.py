@@ -19,6 +19,8 @@ Only use articles from major news corps.
 
 Use this content to update the below JSON: article summaries, titles, links and favicons.
 
+Summaries should not be more than 45 words long.
+
 Don't modify the view counts - these are just placeholders for now.
 
 All articles must be real and from today ({date}) and links must be working.
