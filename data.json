@@ -1,59 +1,59 @@
 {
   "articles": [
     {
-      "source": "Financial Times",
-      "favicon": "https://www.ft.com/favicon.ico",
-      "title": "Ukraine's 'drone war' hastens development of autonomous weapons",
-      "summary": "The conflict in Ukraine has accelerated the development of AI-enabled autonomous weapons, particularly drones, highlighting technical and ethical challenges.",
-      "link": "https://www.ft.com/content/165272fb-832f-4299-a0d2-1be8efcf5758",
+      "source": "Reuters",
+      "favicon": "https://www.reuters.com/favicon.ico",
+      "title": "Salesforce to acquire Informatica for $8 billion to enhance AI data tools",
+      "summary": "Salesforce plans to acquire data management platform Informatica for approximately $8 billion, aiming to bolster its AI capabilities across business tools.",
+      "link": "https://www.reuters.com/technology/salesforce-nears-8-billion-deal-informatica-wsj-reports-2025-05-27/",
       "views": 8475
     },
     {
-      "source": "Axios",
-      "favicon": "https://www.axios.com/favicon.ico",
-      "title": "AI cheating surge",
-      "summary": "U.S. educators are concerned about a surge in AI use for cheating, with 90% of college students reportedly using AI tools like ChatGPT for assignments.",
-      "link": "https://www.axios.com/newsletters/axios-am-2c5374af-c3b5-4be7-bc1c-5f3c8f049ad1",
+      "source": "Reuters",
+      "favicon": "https://www.reuters.com/favicon.ico",
+      "title": "Nvidia earnings to reveal impact of US export curbs on China",
+      "summary": "Nvidia is set to report earnings amid significant impact from U.S. export restrictions on AI chip sales to China, potentially costing the company $5.5 billion.",
+      "link": "https://www.reuters.com/world/china/nvidia-earnings-reveal-hit-us-export-curbs-china-2025-05-27/",
       "views": 10342
     },
     {
-      "source": "AP News",
-      "favicon": "https://apnews.com/favicon.ico",
-      "title": "Google's unleashes 'AI Mode' in the next phase of its journey to change search",
-      "summary": "Google introduces 'AI Mode' in its search engine, allowing conversational interactions and integrating the Gemini 2.5 model for expert-level answers.",
-      "link": "https://apnews.com/article/5b0cdc59870508dab856227185cb8e23",
+      "source": "Reuters",
+      "favicon": "https://www.reuters.com/favicon.ico",
+      "title": "German consortium in talks to build AI data center",
+      "summary": "A German consortium, including SAP and Deutsche Telekom, is discussing building a major AI data processing center to secure EU funding.",
+      "link": "https://www.reuters.com/business/media-telecom/german-consortium-talks-build-ai-data-centre-handelsblatt-reports-2025-05-27/",
       "views": 6239
     },
     {
-      "source": "TechRadar",
-      "favicon": "https://www.techradar.com/favicon.ico",
-      "title": "Google I/O 2025 as it happened: AI Search, Veo, Flow, Gemini, Android XR, and all the big announcements",
-      "summary": "Google I/O 2025 showcased AI advancements including Android XR Glasses, Project Astra assistant, and updates to the Gemini suite.",
-      "link": "https://www.techradar.com/news/live/google-i-o-2025-live-project-astra-gemini-and-more",
+      "source": "Reuters",
+      "favicon": "https://www.reuters.com/favicon.ico",
+      "title": "TSMC to open European chip design center in Munich",
+      "summary": "TSMC will open a new chip design center in Munich, Germany, focusing on AI and IoT applications, supporting European clients.",
+      "link": "https://www.reuters.com/business/autos-transportation/tsmc-will-open-european-chip-design-centre-munich-germany-2025-05-27/",
       "views": 784
     },
     {
-      "source": "Fox News",
-      "favicon": "https://www.foxnews.com/favicon.ico",
-      "title": "Future of AI: New tech will create ‘digital humans,’ could use more energy than all working people by 2025",
-      "summary": "Experts predict AI advancements will lead to 'digital humans' and could consume more energy than the global workforce by 2025.",
-      "link": "https://www.foxnews.com/media/future-ai-new-tech-create-digital-humans-use-more-energy-all-working-people-2025",
+      "source": "Reuters",
+      "favicon": "https://www.reuters.com/favicon.ico",
+      "title": "European defense companies scramble for AI experts amid business boom",
+      "summary": "European defense firms face labor shortages, including AI experts, as military spending surges across the continent.",
+      "link": "https://www.reuters.com/business/aerospace-defense/europes-defence-companies-scramble-workers-business-booms-2025-05-27/",
       "views": 925
     },
     {
-      "source": "Wikipedia",
-      "favicon": "https://en.wikipedia.org/favicon.ico",
-      "title": "2025 in artificial intelligence",
-      "summary": "Key AI developments in 2025 include OpenAI's ChatGPT Deep Research, Mistral AI's Le Chat, and Google's AI Mode launch.",
-      "link": "https://en.wikipedia.org/wiki/2025_in_artificial_intelligence",
+      "source": "Reuters",
+      "favicon": "https://www.reuters.com/favicon.ico",
+      "title": "Autonomous agents and profitability to dominate AI agenda in 2025",
+      "summary": "Executives forecast that autonomous agents and profitability will be central to the AI agenda in 2025, with advancements in step-by-step reasoning.",
+      "link": "https://www.reuters.com/technology/artificial-intelligence/autonomous-agents-profitability-dominate-ai-agenda-2025-executives-forecast-2024-12-12/",
       "views": 925
     },
     {
-      "source": "Wikipedia",
-      "favicon": "https://en.wikipedia.org/favicon.ico",
-      "title": "OpenAI",
-      "summary": "In April 2025, OpenAI raised $40 billion at a $300 billion valuation, marking the largest private tech deal on record.",
-      "link": "https://en.wikipedia.org/wiki/OpenAI",
+      "source": "BBC News",
+      "favicon": "https://www.bbc.com/favicon.ico",
+      "title": "World leaders set to vie for AI domination at Paris summit",
+      "summary": "Representatives from 80 countries, including world leaders and tech executives, will gather in Paris to discuss AI progress and future goals.",
+      "link": "https://feeds.bbci.co.uk/news/articles/c17evw0k8g8o",
       "views": 925
     }
   ]
