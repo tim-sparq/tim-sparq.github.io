@@ -1,49 +1,49 @@
 {
   "articles": [
     {
-      "source": "Reuters",
-      "favicon": "https://www.reuters.com/favicon.ico",
-      "title": "Salesforce to acquire Informatica for $8 billion to enhance AI data tools",
-      "summary": "Salesforce plans to acquire data management platform Informatica for approximately $8 billion, aiming to bolster its AI capabilities across business tools.",
-      "link": "https://www.reuters.com/technology/salesforce-nears-8-billion-deal-informatica-wsj-reports-2025-05-27/",
+      "source": "Axios",
+      "favicon": "https://www.axios.com/favicon.ico",
+      "title": "White-collar job losses loom as AI advances",
+      "summary": "Anthropic CEO Dario Amodei warns AI could eliminate up to 50% of entry-level white-collar jobs, potentially raising unemployment to 10–20% in the next five years.",
+      "link": "https://www.axios.com/newsletters/axios-am-e8b4908f-a6fa-40b1-8adc-7d9b60c94da2",
       "views": 8475
     },
     {
-      "source": "Reuters",
-      "favicon": "https://www.reuters.com/favicon.ico",
-      "title": "Nvidia earnings to reveal impact of US export curbs on China",
-      "summary": "Nvidia is set to report earnings amid significant impact from U.S. export restrictions on AI chip sales to China, potentially costing the company $5.5 billion.",
-      "link": "https://www.reuters.com/world/china/nvidia-earnings-reveal-hit-us-export-curbs-china-2025-05-27/",
+      "source": "Axios",
+      "favicon": "https://www.axios.com/favicon.ico",
+      "title": "AI robots face real-world deployment challenges",
+      "summary": "Advancements in AI robotics are hindered by safety and training issues, limiting their real-world deployment despite technological progress.",
+      "link": "https://www.axios.com/newsletters/axios-future-of-mobility-8fdc9da0-65cb-4517-b756-8a3d6e59c6ef",
       "views": 10342
     },
     {
-      "source": "Reuters",
-      "favicon": "https://www.reuters.com/favicon.ico",
-      "title": "German consortium in talks to build AI data center",
-      "summary": "A German consortium, including SAP and Deutsche Telekom, is discussing building a major AI data processing center to secure EU funding.",
-      "link": "https://www.reuters.com/business/media-telecom/german-consortium-talks-build-ai-data-centre-handelsblatt-reports-2025-05-27/",
+      "source": "Axios",
+      "favicon": "https://www.axios.com/favicon.ico",
+      "title": "California bar exam's AI scandal prompts retake",
+      "summary": "The California State Bar faces scrutiny after using AI to draft exam questions, leading to technical issues and a high-stakes retake.",
+      "link": "https://www.axios.com/local/san-francisco/2025/05/28/california-state-bar-exam-february-july-ai",
       "views": 6239
     },
     {
-      "source": "Reuters",
-      "favicon": "https://www.reuters.com/favicon.ico",
-      "title": "TSMC to open European chip design center in Munich",
-      "summary": "TSMC will open a new chip design center in Munich, Germany, focusing on AI and IoT applications, supporting European clients.",
-      "link": "https://www.reuters.com/business/autos-transportation/tsmc-will-open-european-chip-design-centre-munich-germany-2025-05-27/",
+      "source": "Axios",
+      "favicon": "https://www.axios.com/favicon.ico",
+      "title": "Meta restructures AI team to compete with OpenAI",
+      "summary": "Meta is reorganizing its AI teams to accelerate development and deployment of new AI products amid rising competition.",
+      "link": "https://www.axios.com/2025/05/27/meta-ai-restructure-2025-agi-llama",
       "views": 784
     },
     {
-      "source": "Reuters",
-      "favicon": "https://www.reuters.com/favicon.ico",
-      "title": "European defense companies scramble for AI experts amid business boom",
-      "summary": "European defense firms face labor shortages, including AI experts, as military spending surges across the continent.",
-      "link": "https://www.reuters.com/business/aerospace-defense/europes-defence-companies-scramble-workers-business-booms-2025-05-27/",
+      "source": "Tom's Guide",
+      "favicon": "https://www.tomsguide.com/favicon.ico",
+      "title": "Microsoft Build 2025 highlights AI integration",
+      "summary": "At Microsoft Build 2025, the company emphasized AI integration across platforms, introducing new features and partnerships.",
+      "link": "https://www.tomsguide.com/news/live/microsoft-build-2025",
       "views": 925
     },
     {
       "source": "Reuters",
       "favicon": "https://www.reuters.com/favicon.ico",
-      "title": "Autonomous agents and profitability to dominate AI agenda in 2025",
+      "title": "Autonomous agents to dominate AI agenda in 2025",
       "summary": "Executives forecast that autonomous agents and profitability will be central to the AI agenda in 2025, with advancements in step-by-step reasoning.",
       "link": "https://www.reuters.com/technology/artificial-intelligence/autonomous-agents-profitability-dominate-ai-agenda-2025-executives-forecast-2024-12-12/",
       "views": 925
@@ -51,7 +51,7 @@
     {
       "source": "BBC News",
       "favicon": "https://www.bbc.com/favicon.ico",
-      "title": "World leaders set to vie for AI domination at Paris summit",
+      "title": "World leaders to discuss AI at Paris summit",
       "summary": "Representatives from 80 countries, including world leaders and tech executives, will gather in Paris to discuss AI progress and future goals.",
       "link": "https://feeds.bbci.co.uk/news/articles/c17evw0k8g8o",
       "views": 925
