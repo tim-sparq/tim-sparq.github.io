@@ -1,59 +1,59 @@
 {
   "articles": [
     {
-      "source": "Reuters",
-      "favicon": "https://www.reuters.com/favicon.ico",
-      "title": "Chinese tech companies prepare for AI future without Nvidia",
-      "summary": "Chinese tech giants like Alibaba and Baidu are shifting to domestic chips as U.S. export restrictions limit access to Nvidia processors.",
-      "link": "https://www.reuters.com/world/china/chinese-tech-companies-prepare-ai-future-without-nvidia-ft-reports-2025-05-30/",
+      "source": "Axios",
+      "favicon": "https://www.axios.com/favicon.ico",
+      "title": "Premature automation",
+      "summary": "Companies are rapidly replacing human workers with AI, risking significant disruption in sectors like finance and law.",
+      "link": "https://www.axios.com/newsletters/axios-ai-plus-cf521d18-654d-46a2-b138-7f6a9ce36c92",
       "views": 8475
     },
     {
       "source": "Axios",
       "favicon": "https://www.axios.com/favicon.ico",
-      "title": "NYT reaches AI licensing deal with Amazon",
-      "summary": "The New York Times has signed a multiyear AI licensing deal with Amazon, allowing the tech giant to use its editorial content for AI applications.",
-      "link": "https://www.axios.com/2025/05/30/nyt-amazon-ai-licensing-deal",
+      "title": "The Great Fusing",
+      "summary": "U.S. tech giants and the government form strategic alliances to dominate AI and space sectors.",
+      "link": "https://www.axios.com/newsletters/axios-am-11476310-a3e6-49fa-90e8-ffc8a62be494",
       "views": 10342
     },
     {
-      "source": "AP News",
-      "favicon": "https://apnews.com/favicon.ico",
-      "title": "US supercomputer named after Nobel laureate Jennifer Doudna to power AI and scientific research",
-      "summary": "A new supercomputer named 'Doudna' will support AI and scientific research, particularly in genomics, at the Lawrence Berkeley National Laboratory.",
-      "link": "https://apnews.com/article/d994c6f2553ce76ce80211d33e402ee0",
+      "source": "Tom's Guide",
+      "favicon": "https://www.tomsguide.com/favicon.ico",
+      "title": "Microsoft Build 2025 LIVE: All the big AI news announced",
+      "summary": "Microsoft emphasizes AI integration across platforms, introducing new AI models and developer tools.",
+      "link": "https://www.tomsguide.com/news/live/microsoft-build-2025",
       "views": 6239
     },
     {
-      "source": "Financial Times",
-      "favicon": "https://www.ft.com/favicon.ico",
-      "title": "Chinese tech groups prepare for AI future without Nvidia",
-      "summary": "Major Chinese tech firms are turning to domestic chips for AI projects as U.S. export controls limit access to Nvidia processors.",
-      "link": "https://www.ft.com/content/bb1315e8-27df-4a93-a4dc-11e2883fdde3",
+      "source": "TechRadar",
+      "favicon": "https://www.techradar.com/favicon.ico",
+      "title": "Nvidia GTC 2025 - all the news you might have missed",
+      "summary": "Nvidia unveils new GPUs and AI tools, highlighting advancements in AI and hardware technology.",
+      "link": "https://www.techradar.com/pro/live/nvidia-gtc-2025-all-the-news-and-updates-from-jensen-huang-keynote-as-it-happens",
       "views": 784
     },
     {
-      "source": "Time",
-      "favicon": "https://time.com/favicon.ico",
-      "title": "The Shift East: How China's EV Boom Powers Its Tech Rise",
-      "summary": "China's electric vehicle industry is driving technological advancements, including AI, positioning the country as a global tech leader.",
-      "link": "https://time.com/7288660/shift-east-china-electric-vehicles-economy-technology-trump-tariffs-ai/",
+      "source": "Solutions Review",
+      "favicon": "https://solutionsreview.com/favicon.ico",
+      "title": "Artificial Intelligence News for the Week of May 31; Updates from Incorta, Tonic.AI, xAI & More",
+      "summary": "Key AI developments include funding rounds, partnerships, and new product launches across the industry.",
+      "link": "https://solutionsreview.com/artificial-intelligence-news-for-the-week-of-may-30-updates-from-incorta-tonic-ai-xai-more/",
       "views": 925
     },
     {
-      "source": "Axios",
-      "favicon": "https://www.axios.com/favicon.ico",
-      "title": "MAGA's AI juggling act",
-      "summary": "The MAGA movement navigates AI advancements amid concerns over potential job losses among working-class Americans.",
-      "link": "https://www.axios.com/2025/05/29/ai-trump-maga-job-losses",
+      "source": "Atlassian Community",
+      "favicon": "https://community.atlassian.com/favicon.ico",
+      "title": "AI.News Roundup: Week Ending May 31",
+      "summary": "OpenAI announces new models and safety committee; Google faces issues with AI Overview product.",
+      "link": "https://community.atlassian.com/t5/Atlassian-Intelligence/AI-News-Roundup-Week-Ending-May-31/td-p/2714161",
       "views": 925
     },
     {
-      "source": "Axios",
-      "favicon": "https://www.axios.com/favicon.ico",
-      "title": "Meta restructures AI team to compete with OpenAI",
-      "summary": "Meta is reorganizing its AI teams to accelerate development amid rising competition from companies like OpenAI and Google.",
-      "link": "https://www.axios.com/2025/05/27/meta-ai-restructure-2025-agi-llama",
+      "source": "Wikipedia",
+      "favicon": "https://en.wikipedia.org/favicon.ico",
+      "title": "2025 in artificial intelligence",
+      "summary": "Overview of significant AI events and developments occurring in 2025.",
+      "link": "https://en.wikipedia.org/wiki/2025_in_artificial_intelligence",
       "views": 925
     }
   ]
