@@ -17,43 +17,43 @@
       "views": 10342
     },
     {
-      "source": "Tom's Guide",
-      "favicon": "https://www.tomsguide.com/favicon.ico",
-      "title": "Microsoft Build 2025 LIVE: All the big AI news announced",
-      "summary": "Microsoft emphasizes AI integration across platforms, introducing new AI models and developer tools.",
-      "link": "https://www.tomsguide.com/news/live/microsoft-build-2025",
+      "source": "BBC News",
+      "favicon": "https://www.bbc.com/favicon.ico",
+      "title": "Apple urged to axe AI feature after false headline",
+      "summary": "Reporters Without Borders calls on Apple to remove its AI feature after it generated a misleading headline about a high-profile U.S. killing.",
+      "link": "https://www.bbc.com/news/articles/cx2v778x85yo",
       "views": 6239
     },
     {
-      "source": "TechRadar",
-      "favicon": "https://www.techradar.com/favicon.ico",
-      "title": "Nvidia GTC 2025 - all the news you might have missed",
-      "summary": "Nvidia unveils new GPUs and AI tools, highlighting advancements in AI and hardware technology.",
-      "link": "https://www.techradar.com/pro/live/nvidia-gtc-2025-all-the-news-and-updates-from-jensen-huang-keynote-as-it-happens",
+      "source": "CNN",
+      "favicon": "https://www.cnn.com/favicon.ico",
+      "title": "Apple urged to remove new AI feature after falsely summarizing news reports",
+      "summary": "Press freedom group urges Apple to remove AI feature that produced false headlines, including a misleading BBC report summary.",
+      "link": "https://edition.cnn.com/2024/12/19/media/apple-intelligence-news-bbc-headline/index.html",
       "views": 784
     },
     {
-      "source": "Solutions Review",
-      "favicon": "https://solutionsreview.com/favicon.ico",
-      "title": "Artificial Intelligence News for the Week of May 31; Updates from Incorta, Tonic.AI, xAI & More",
-      "summary": "Key AI developments include funding rounds, partnerships, and new product launches across the industry.",
-      "link": "https://solutionsreview.com/artificial-intelligence-news-for-the-week-of-may-30-updates-from-incorta-tonic-ai-xai-more/",
+      "source": "Reuters",
+      "favicon": "https://www.reuters.com/favicon.ico",
+      "title": "Google says it will appeal online search antitrust decision",
+      "summary": "Google plans to appeal a recent antitrust decision proposing remedies to promote competition in the online search market.",
+      "link": "https://www.reuters.com/sustainability/boards-policy-regulation/google-says-it-will-appeal-online-search-antitrust-decision-2025-05-31/",
       "views": 925
     },
     {
-      "source": "Atlassian Community",
-      "favicon": "https://community.atlassian.com/favicon.ico",
-      "title": "AI.News Roundup: Week Ending May 31",
-      "summary": "OpenAI announces new models and safety committee; Google faces issues with AI Overview product.",
-      "link": "https://community.atlassian.com/t5/Atlassian-Intelligence/AI-News-Roundup-Week-Ending-May-31/td-p/2714161",
+      "source": "The Register",
+      "favicon": "https://www.theregister.com/favicon.ico",
+      "title": "AI summaries turn real news into nonsense, BBC finds",
+      "summary": "BBC research reveals AI-generated news summaries often produce inaccurate or misleading content, raising concerns about AI's role in journalism.",
+      "link": "https://www.theregister.com/2025/02/12/bbc_ai_news_accuracy",
       "views": 925
     },
     {
-      "source": "Wikipedia",
-      "favicon": "https://en.wikipedia.org/favicon.ico",
-      "title": "2025 in artificial intelligence",
-      "summary": "Overview of significant AI events and developments occurring in 2025.",
-      "link": "https://en.wikipedia.org/wiki/2025_in_artificial_intelligence",
+      "source": "CNN",
+      "favicon": "https://www.cnn.com/favicon.ico",
+      "title": "How Microsoft’s AI is making a mess of the news",
+      "summary": "Microsoft's AI-generated news content faces criticism after producing inappropriate polls and summaries, prompting concerns over AI's impact on journalism.",
+      "link": "https://edition.cnn.com/2023/11/02/tech/microsoft-ai-news/index.html/",
       "views": 925
     }
   ]
